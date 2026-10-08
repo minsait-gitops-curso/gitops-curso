@@ -5,7 +5,7 @@ metadata:
   labels:
     app: web
 spec:
-  replicas: 2
+  replicas: 3
   # Após 2 minutos sem progresso o rollout é marcado como falho (Degraded no Argo CD)
   progressDeadlineSeconds: 120
   selector:
