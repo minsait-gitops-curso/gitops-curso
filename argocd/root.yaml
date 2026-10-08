@@ -10,7 +10,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/SEU_USUARIO/gitops-curso.git
+    repoURL: https://github.com/minsait-gitops-curso/gitops-curso.git
     targetRevision: main
     path: argocd/apps
   destination:
